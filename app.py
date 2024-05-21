@@ -8,7 +8,7 @@ import numpy as np
 st.set_page_config(page_title="Iris Project", layout='wide')
 
 # Add title to the body
-st.title("Iris Project - Utkarsh Gaikwad")
+st.title("Iris Project - Priya Varma")
 
 # Add inputs for user 
 sep_len = st.number_input("Sepal Length : ", min_value=0.00 , step=0.01)
