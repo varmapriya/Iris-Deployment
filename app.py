@@ -20,11 +20,11 @@ pet_wid = st.number_input("Petal Width : ",min_value=0.00, step=0.01)
 submit = st.button("Predict")
 
 # Load the preprocessor with pickle
-with open("notebook/pre.pkl", "rb") as file1:
+with open("Notebook/pre.pkl", "rb") as file1:
     pre = pickle.load(file1)
 
 # Load the model with pickle
-with open('notebook/model.pkl', 'rb') as file2:
+with open('Notebook/model.pkl', 'rb') as file2:
     model = pickle.load(file2)
 
 # if submit button is pressed
